@@ -39,6 +39,10 @@
             "Port\\Boilerplate\\Tests\\": "tests/"
         }
     },
+    "scripts": {
+        "test": "TEST_COMMAND",
+        "test-ci": "TEST_COMMAND_WITH_COVERAGE"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
