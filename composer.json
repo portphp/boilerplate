@@ -40,8 +40,8 @@
         }
     },
     "scripts": {
-        "test": "TEST_COMMAND",
-        "test-ci": "TEST_COMMAND_WITH_COVERAGE"
+        "test": "vendor/bin/phpunit",
+        "test-ci": "vendor/bin/phpunit --coverage-clover=coverage.clover"
     },
     "extra": {
         "branch-alias": {
